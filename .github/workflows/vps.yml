@@ -18,4 +18,4 @@ jobs:
         USER_PASS: 123...ggg
      - name: Don't kill instace
        if: ${{ failure() }}
-       run: sleep 6h
+       run: sleep 5h
